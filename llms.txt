@@ -1,6 +1,6 @@
 # OPMLMan
 
-> OPMLMan (App Store name: OPML/RSS Feed Manager) is a free app for iPhone, iPad and Mac that imports OPML exports from feed readers and podcast apps, checks every feed, and reports which are active, slowing, dormant, moved, not found or failing.
+> OPMLMan (App Store name: OPMLMan: Feeds Manager) is a free app for iPhone, iPad and Mac that imports OPML exports from feed readers and podcast apps, checks every feed, and reports which are active, slowing, dormant, moved, not found or failing.
 
 Key facts:
 
@@ -13,7 +13,7 @@ Key facts:
 ## Links
 
 - [OPMLMan website](https://opmlman.thechels.uk/): the official site
-- [OPMLMan on the App Store](https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624): free, for iPhone, iPad and Mac
+- [OPMLMan on the App Store](https://apps.apple.com/app/id6832117624): free, for iPhone, iPad and Mac
 - [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
 - [Opiuml](https://opiuml.thechels.uk/): the podcast player from the same developer
 
