@@ -57,11 +57,4 @@ well as tone, so there's no rainbow of status colours.
 The icon images (`images/opmlman-app-icon.svg` and `.png`, `favicon.ico`) are made from the icon's shapes by
 the app's `tools/make_icon.py --flat <folder>`. `images/og-image.png` (1200 x 630) is the icon on periwinkle.
 
-### Before the first deploy
-
-- [x] App Store links, the `apple-itunes-app` meta tag, and `installUrl` and `sameAs` in the JSON-LD point at the app (id6832117624).
-- [ ] When the app is live: add `screenshot` to the JSON-LD.
-- [ ] Optional: the Ahrefs analytics tag the other sites use, with this site's own key.
-- [ ] DNS: a CNAME for `opmlman.thechels.uk`, then turn on Pages with GitHub Actions as the source.
-
 © 2026 OPMLMan · [thechels.uk](https://thechels.uk/)
