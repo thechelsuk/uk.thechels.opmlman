@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en-GB">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-itunes-app" content="app-id=6832117624">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#dcdffb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1a1e3d" media="(prefers-color-scheme: dark)">
+    <meta name="description"
+      content="OPMLMan, the OPML and RSS feed manager for iPhone, iPad and Mac. Import your OPML exports, check every feed, and find the dead, dormant and moved ones. Merge, split and export clean lists. Free, no tracking.">
+    <meta name="author" content="thechelsuk">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://opmlman.thechels.uk/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="OPMLMan">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:url" content="https://opmlman.thechels.uk/">
+    <meta property="og:title" content="OPMLMan: OPML and RSS feed manager">
+    <meta property="og:description"
+      content="Import OPML, check every feed, and find the dead, the dormant and the moved. Merge, split by podcast, video and articles, and export clean lists.">
+    <meta property="og:image" content="https://opmlman.thechels.uk/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="OPMLMan: which of your feeds are still alive?">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OPMLMan: OPML and RSS feed manager">
+    <meta name="twitter:description" content="Find the dead, the dormant and the moved in your feed lists. Free, no tracking.">
+    <meta name="twitter:image" content="https://opmlman.thechels.uk/images/og-image.png">
+    <meta name="twitter:image:alt" content="OPMLMan: which of your feeds are still alive?">
+    <title>OPMLMan: OPML and RSS Feed Manager</title>
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+    <link rel="icon" href="images/opmlman-app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/opmlman-app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="theme.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://thechels.uk/#person",
+            "name": "Mat Benfield",
+            "alternateName": "thechelsuk",
+            "url": "https://thechels.uk/",
+            "sameAs": [
+              "https://links.thechels.uk/",
+              "https://github.com/thechelsuk",
+              "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://opmlman.thechels.uk/#website",
+            "url": "https://opmlman.thechels.uk/",
+            "name": "OPMLMan",
+            "inLanguage": "en-GB",
+            "publisher": { "@id": "https://thechels.uk/#person" }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://opmlman.thechels.uk/#app",
+            "name": "OPML/RSS Feed Manager",
+            "alternateName": "OPMLMan",
+            "operatingSystem": "iOS 18 or later, iPadOS 18 or later, macOS 15 or later, visionOS",
+            "applicationCategory": "UtilitiesApplication",
+            "url": "https://opmlman.thechels.uk/",
+            "installUrl": "https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624",
+            "sameAs": ["https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624"],
+            "image": "https://opmlman.thechels.uk/images/opmlman-app-icon.png",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "GBP",
+              "description": "Free, with no ads and no tracking. Optional tips unlock nothing."
+            },
+            "description": "OPMLMan imports OPML exports from feed readers and podcast apps, checks every feed, and reports which are active, slowing, dormant, moved or gone. Merge, split and export clean lists, synced through iCloud.",
+            "inLanguage": "en-GB",
+            "featureList": [
+              "Import several OPML files, each kept as its own collection",
+              "Check every feed: status, latest item, earliest item, update frequency",
+              "Find 404s, failing feeds, permanent redirects and dormant feeds",
+              "Find duplicates, including http and https and redirecting addresses",
+              "Merge collections and split them into podcasts, video and articles",
+              "Export OPML, combined or split by type",
+              "iCloud sync between iPhone, iPad and Mac",
+              "Search, sort and filter by status and type"
+            ],
+            "author": { "@id": "https://thechels.uk/#person" },
+            "publisher": { "@id": "https://thechels.uk/#person" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://opmlman.thechels.uk/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is an OPML file?",
+                "acceptedAnswer": { "@type": "Answer", "text": "OPML is the list format feed readers and podcast apps use to export and import subscriptions. Look for Export OPML or Export subscriptions in your app's settings." }
+              },
+              {
+                "@type": "Question",
+                "name": "How does OPMLMan decide a feed is dormant?",
+                "acceptedAnswer": { "@type": "Answer", "text": "From the date of its newest item. By default a feed with nothing new for 30 days is slowing and for 90 days is dormant. You can change both in Settings." }
+              },
+              {
+                "@type": "Question",
+                "name": "Does it check feeds in the background?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. Feeds are only checked when you tap Check, so nothing runs behind your back and no feed is hammered." }
+              },
+              {
+                "@type": "Question",
+                "name": "Does it play podcasts or show articles?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. OPMLMan manages and checks your lists. For podcasts, export a clean list and import it into Opiuml, the podcast player from the same developer." }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does it cost?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Nothing. OPMLMan is free, with no ads and no tracking. There is an optional tip jar, which unlocks nothing." }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <header class="top">
+      <a class="brand" href="/" aria-label="OPMLMan home"><img src="images/opmlman-app-icon.svg" alt="" width="32" height="32">OPMLMan</a>
+      <div class="top-end">
+        <span class="theme" role="group" aria-label="Colour theme">
+          <button type="button" data-theme-choice="light" aria-pressed="false" aria-label="Light theme" title="Light">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+          </button>
+          <button type="button" data-theme-choice="dark" aria-pressed="false" aria-label="Dark theme" title="Dark">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+          </button>
+          <button type="button" data-theme-choice="system" aria-pressed="true" aria-label="Match system theme" title="System">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          </button>
+        </span>
+        <a class="top-get" href="https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624">Get the app</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">OPML and RSS feed manager for iPhone, iPad and Mac</p>
+          <h1>Which of your feeds are still&nbsp;alive?</h1>
+          <p class="lede">Open the OPML file from your feed reader or podcast app. OPMLMan checks every feed and tells you which are active, which have gone quiet, which have moved and which are gone for good.</p>
+          <div class="get">
+            <a class="store" href="https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624"><img src="images/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+            <span class="free">Free. No ads, no tracking.</span>
+          </div>
+        </div>
+        <img class="hero-icon" src="images/opmlman-app-icon.svg" alt="The OPMLMan icon: a database with a feed signal" width="320" height="320">
+      </section>
+
+      <section class="ledger" aria-labelledby="ledger-title">
+        <div class="ledger-head">
+          <h2 id="ledger-title">Tap Check. See what&rsquo;s&nbsp;left.</h2>
+          <p>Nothing is checked until you ask, so nothing runs in the background and no feed gets hammered. Try it on a small list.</p>
+        </div>
+        <div class="sheet">
+          <div class="sheet-bar">
+            <span class="file">todays_export.opml <span class="count">8 feeds</span></span>
+            <button class="check" id="check" type="button">Check</button>
+          </div>
+          <div class="cols" aria-hidden="true"><span>Feed</span><span>Latest</span><span>Rhythm</span><span>Status</span></div>
+          <ol class="rows" id="rows">
+          <li class="row" data-status="active">
+            <span class="feed"><span class="name">Posts <span class="kind">Blog</span></span><span class="url">thechels.uk/posts.xml</span></span>
+            <span class="latest">8 days ago</span>
+            <span class="rhythm">A few a week</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why"></span></span>
+          </li>
+          <li class="row" data-status="active">
+            <span class="feed"><span class="name">The Long Lunch <span class="kind">Podcast</span></span><span class="url">feeds.example.fm/the-long-lunch</span></span>
+            <span class="latest">2 days ago</span>
+            <span class="rhythm">Weekly</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why"></span></span>
+          </li>
+          <li class="row" data-status="slowing">
+            <span class="feed"><span class="name">Weekend Woodwork <span class="kind">YouTube</span></span><span class="url">youtube.com/feeds/videos.xml?channel_id=UCwoodwork</span></span>
+            <span class="latest">41 days ago</span>
+            <span class="rhythm">Fortnightly</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why"></span></span>
+          </li>
+          <li class="row" data-status="dormant">
+            <span class="feed"><span class="name">Pocket Science <span class="kind">Podcast</span></span><span class="url">pocketscience.example.com/podcast.rss</span></span>
+            <span class="latest">214 days ago</span>
+            <span class="rhythm">Monthly</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why"></span></span>
+          </li>
+          <li class="row" data-status="notfound">
+            <span class="feed"><span class="name">Old Posts <span class="kind">Blog</span></span><span class="url">thechels.uk/atom.xml</span></span>
+            <span class="latest">&nbsp;</span>
+            <span class="rhythm">&nbsp;</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why">404, gone</span></span>
+          </li>
+          <li class="row" data-status="moved">
+            <span class="feed"><span class="name">Synth Sundays <span class="kind">YouTube</span></span><span class="url">youtube.com/feeds/videos.xml?user=synthsundays</span></span>
+            <span class="latest">&nbsp;</span>
+            <span class="rhythm">&nbsp;</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why">Now at its channel_id address</span></span>
+          </li>
+          <li class="row" data-status="failing">
+            <span class="feed"><span class="name">Trail Notes <span class="kind">Blog</span></span><span class="url">trailnotes.example.org/feed</span></span>
+            <span class="latest">&nbsp;</span>
+            <span class="rhythm">&nbsp;</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why">Timed out after 20&nbsp;s</span></span>
+          </li>
+          <li class="row" data-status="duplicate">
+            <span class="feed"><span class="name">The Long Lunch <span class="kind">Podcast</span></span><span class="url">http://feeds.example.fm/the-long-lunch/</span></span>
+            <span class="latest">&nbsp;</span>
+            <span class="rhythm">&nbsp;</span>
+            <span class="status"><span class="mark" aria-hidden="true"></span><span class="word">Not checked</span><span class="why">Same feed as The Long Lunch</span></span>
+          </li>
+          </ol>
+          <p class="tally" id="tally" aria-live="polite"></p>
+        </div>
+        <dl class="key">
+          <div><dt data-status="active"><span class="mark"></span>Active</dt><dd>Something new in the last 30 days</dd></div>
+          <div><dt data-status="slowing"><span class="mark"></span>Slowing</dt><dd>Quiet for 30 to 90 days</dd></div>
+          <div><dt data-status="dormant"><span class="mark"></span>Dormant</dt><dd>Nothing for over 90 days</dd></div>
+          <div><dt data-status="moved"><span class="mark"></span>Moved</dt><dd>A permanent redirect, one tap to follow it</dd></div>
+          <div><dt data-status="notfound"><span class="mark"></span>Not found</dt><dd>404 or 410</dd></div>
+          <div><dt data-status="failing"><span class="mark"></span>Failing</dt><dd>Errors, time-outs, or a web page instead of a feed</dd></div>
+        </dl>
+      </section>
+
+      <section class="does" aria-labelledby="does-title">
+        <h2 id="does-title">Everything an OPML file&nbsp;needs.</h2>
+        <dl class="features">
+          <div><dt>Collections</dt><dd>Every file you import stays its own collection, with its folders. Then types, then feeds, like artists, albums and songs.</dd></div>
+          <div><dt>Feed health</dt><dd>Latest item, the earliest it still lists, how often it publishes, and what the server said.</dd></div>
+          <div><dt>Duplicates</dt><dd>The same feed written two ways, http and https, or one address redirecting to another. You choose what goes.</dd></div>
+          <div><dt>Merge and split</dt><dd>Combine lists into a new one, or split one into podcasts, video and articles.</dd></div>
+          <div><dt>Export</dt><dd>Clean OPML per collection, combined, or one file per type, ready for the apps that read each.</dd></div>
+          <div><dt>Everywhere</dt><dd>iPhone, iPad and a native Mac app, in step through your own iCloud. Apple Vision Pro too.</dd></div>
+        </dl>
+      </section>
+
+      <section class="promise">
+        <div class="inner">
+        <p class="big">No account. No analytics. It only talks to the feeds you&nbsp;check.</p>
+        <p>Free, with no ads and no tracking. There&rsquo;s a tip jar if you&rsquo;d like to say thanks; it unlocks nothing. Your collections sync through your own iCloud, or stay on the device.</p>
+        <a class="opiuml" href="https://opiuml.thechels.uk/">Podcasts in the list? Tidy them here, then listen in Opiuml <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </section>
+
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Questions</h2>
+        <div class="qs">
+          <details><summary>What is an OPML file?</summary><p>The list format feed readers and podcast apps use to export and import subscriptions. Look for Export OPML or Export subscriptions in your app&rsquo;s settings.</p></details>
+          <details><summary>How does OPMLMan decide a feed is dormant?</summary><p>From the date of its newest item. By default nothing new for 30 days is slowing and for 90 days is dormant. You can change both in Settings.</p></details>
+          <details><summary>Does it check feeds in the background?</summary><p>No. Feeds are only checked when you tap Check.</p></details>
+          <details><summary>Does it play podcasts or show articles?</summary><p>No. OPMLMan manages and checks your lists. For podcasts, export a clean list and import it into Opiuml, from the same developer.</p></details>
+          <details><summary>How much does it cost?</summary><p>Nothing. It&rsquo;s free, with no ads and no tracking. The optional tip jar unlocks nothing.</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="inner">
+      <p class="wordmark">OPMLMan</p>
+      <a class="store" href="https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624"><img src="images/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+      <nav aria-label="More">
+        <a href="https://thechels.uk/app/privacy">Privacy</a>
+        <a href="https://thechels.uk/projects">Other apps</a>
+        <a href="mailto:feedback@thechels.uk?subject=OPMLMan">Feedback</a>
+      </nav>
+      <p class="made">&copy; 2026 Made in the UK by <a href="https://thechels.uk/">thechelsuk</a></p>
+      </div>
+    </footer>
+
+    <script src="check.js" defer></script>
+  </body>
+
+</html>

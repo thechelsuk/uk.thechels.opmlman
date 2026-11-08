@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://opmlman.thechels.uk/sitemap.xml

@@ -1,0 +1,49 @@
+# OPMLMan
+
+> OPMLMan (App Store name: OPML/RSS Feed Manager) is a free app for iPhone, iPad and Mac that imports OPML exports from feed readers and podcast apps, checks every feed, and reports which are active, slowing, dormant, moved, not found or failing.
+
+Key facts:
+
+- Platform: iPhone and iPad (iOS/iPadOS 18 or later, including the iPhone Duo folded and unfolded), Mac (macOS 15 or later), and Apple Vision Pro (as the iPad app)
+- Price: free, with no ads and no tracking; an optional tip jar unlocks nothing
+- Privacy: no accounts or analytics; it only contacts the feeds the user asks it to check; collections sync through the user's own iCloud
+- Checking: only when the user taps Check; nothing runs in the background
+- Developer: Mat Benfield (thechelsuk), made in the UK
+
+## Links
+
+- [OPMLMan website](https://opmlman.thechels.uk/): the official site
+- [OPMLMan on the App Store](https://apps.apple.com/gb/app/opml-rss-feed-manager/id6832117624): free, for iPhone, iPad and Mac
+- [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
+- [Opiuml](https://opiuml.thechels.uk/): the podcast player from the same developer
+
+## Features
+
+- Import several OPML files at once, each kept as its own collection with its folders
+- Collections, then types (podcasts, video, articles), then feeds, like artists, albums and songs in the Music app
+- Feed health: status, latest item, earliest item, update frequency, items in the feed, HTTP response
+- Statuses: active, slowing, dormant, undated, moved (permanent redirect or itunes:new-feed-url), not found (404 or 410), failing
+- Duplicates: the same feed written two ways (http and https, www, trailing slash) or redirecting to another, with confirmation before anything is removed
+- Merge collections into a new one; split a collection into podcasts, video and articles
+- Marks feeds on plain http and offers to switch each to https when that works
+- Export OPML per collection, combined, or split by type, with folders as imported, by type or none
+- Tabs for Home (a carousel of collections, then a summary and health), collections and settings, with search on its own; needs attention and plain-http feeds are in each health section; sort and filter by status and type; swipe actions; full create, edit and delete with confirmation
+- Settings: appearance, tint colour, health thresholds, iCloud sync, tip jar
+
+## FAQ
+
+### What is an OPML file?
+
+The list format feed readers and podcast apps use to export and import subscriptions.
+
+### How does OPMLMan decide a feed is dormant?
+
+From the date of its newest item: nothing new for 30 days is slowing, 90 days is dormant, both adjustable.
+
+### Does it play podcasts?
+
+No. It manages and checks lists. For listening, export the podcasts and import them into Opiuml.
+
+## Optional
+
+- [More apps by thechelsuk](https://thechels.uk/projects): the developer's other apps and projects
